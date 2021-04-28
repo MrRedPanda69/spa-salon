@@ -36,3 +36,29 @@
 .socials ul li a[href*="youtube.com"]::before {
     content: '\f16a';
 }
+
+/* Nav */
+.navigation {
+    background-color: #8ed3cc;
+}
+.navbar-light .navbar-toggler {
+    background-color: #ffffff;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+.main-nav {
+    background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: all ease-in-out 0.7s;
+}
+.nav-link:hover {
+    background-color: #8efbe0;
+    color: #000000;
+}
