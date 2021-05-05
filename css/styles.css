@@ -2,14 +2,14 @@
 body {
     background-color: #f8f8f8;
 }
-h2 {
+.header {
     font-size: 2.4rem;
     font-family: 'Lato', sans-serif;
     color: #000000;
     line-height: 2.4rem;
 
 }
-h2 span {
+.header span {
     font-size: 3.8rem;
     font-family: 'Italianno', cursive;
     color: #e082a8;
@@ -90,4 +90,20 @@ h2 span {
     font-family: 'Lato', sans-serif;
     color: #979797;
     font-size: 1.6rem;
+}
+.img-service img {
+    border: 6px solid #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+.img-service img:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+.service-info {
+    background-color: #ffffff;
+    margin-top: -5rem;
+}
+.service-info .btn-primary {
+    border-radius: 0;
+    background-color: #e082a8;
+    border: none;
 }
