@@ -107,3 +107,35 @@ body {
     background-color: #e082a8;
     border: none;
 }
+
+/* Schedules */
+.schedule {
+    background-color: #8ed3cc;
+    color: #ffffff;
+}
+.schedule h2 {
+    font-size: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.schedule .table {
+    border: 2px solid #e082a8;
+}
+.schedule .table thead {
+    background-color: #e082a8;
+}
+.schedule .table td, 
+.schedule .table thead th {
+    border: none;
+}
+.schedule .table tbody tr td {
+    padding: 0.35rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.bg-shedule {
+    background-image: url(../img/bg_horarios.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+}
