@@ -1,5 +1,19 @@
 /*** Add your styles here **/       
+body {
+    background-color: #f8f8f8;
+}
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    line-height: 2.4rem;
 
+}
+h2 span {
+    font-size: 3.8rem;
+    font-family: 'Italianno', cursive;
+    color: #e082a8;
+}
 
 /* Socials */
 .socials {
@@ -70,4 +84,10 @@
     font-size: 2rem;
     font-weight: 900;
     color: #ffffff;
+}
+/* New site */
+.new-site p {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-size: 1.6rem;
 }
