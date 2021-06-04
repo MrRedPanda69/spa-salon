@@ -139,3 +139,63 @@ body {
     background-size: cover;
     min-height: 400px;
 }
+
+/* Products */
+.products .card {
+    border: none;
+}
+.products .card a {
+    color:#000000;
+}
+.products .card a:hover {
+    text-decoration: none;
+}
+.products .card h3 {
+    color: #e082a8;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.products .card p {
+    font-size: 0.8rem;
+}
+.products .card .price {
+    font-size: 1.6rem;
+    color:#979797;
+}
+
+/* Reservations */
+.reservation {
+    background-image: url(../img/bg_citas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+@media (min-width: 992px) {
+    .reservation {
+        background-size: cover;
+    }
+}
+.reservation h3 {
+    font-size: 3.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.reservation p {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+.reservation .btn-primary {
+    background-color: #8efbe0;
+    border: 0;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    color: #e082a8;
+}
+
+/* Footer */
+.copyright {
+    color: #979797;
+    font-size: 0.8rem;
+}
