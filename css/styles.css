@@ -185,7 +185,7 @@ body {
     line-height: 2.6rem;
 }
 .reservation .btn-primary {
-    background-color: #8efbe0;
+    background-color: #8ed3cc;
     border: 0;
     padding: 1rem 5rem;
     border-radius: 0;
@@ -199,3 +199,29 @@ body {
     color: #979797;
     font-size: 0.8rem;
 }
+
+/* Hero */
+.hero {
+    position: relative;
+}
+.hero h2 {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #8ed3cc;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 2.8rem;
+}
+.main-content p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Sidebar */
+aside {
+    background-color:#8ed3cc;
+    color: #ffffff;
+} 
