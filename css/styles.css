@@ -225,3 +225,24 @@ aside {
     background-color:#8ed3cc;
     color: #ffffff;
 } 
+
+/* Accordion */
+#services .card-header {
+    background-color: #e082a8;
+    padding: 0 1.25rem;
+}
+#services .card-body {
+    font-size: 1.3rem;
+}
+#services .card-header .btn-link {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Coupon */
+.coupon {
+    border: 3px dashed #ffffff;
+    font-family: 'Lato', sans-serif;
+}
